@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns= "http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Views.Walkthrough.Page3"    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"   
+                  >
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+                                   x:Name="Anim"
+                                   DurationIn="600"
+                                   DurationOut="400"
+                                   EasingIn="SinOut"
+                                   EasingOut="SinIn"
+                                   HasBackgroundAnimation="True"
+                                   PositionIn="Center"
+                                   PositionOut="Center"
+                                   ScaleIn="1.2"
+                                   ScaleOut="0.8" 
+                                   
+                                   />
+    </pages:PopupPage.Animation>
+    <StackLayout Margin="12"
+                 Padding="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <StackLayout>
+            <Label TextColor="Black" FontSize="Large" >
+                <Label.Text>
+                    صلاة ركعتين من وراء المقام الابراهيمي مع الضطباع
+                </Label.Text>
+            </Label>
+
+        </StackLayout>
+
+        <Button BackgroundColor="DodgerBlue"
+                FontSize="30"
+                Text="رجوع"
+                TextColor="White" 
+                Clicked="Button_Clicked"
+
+                />
+    </StackLayout>
+    </pages:PopupPage>

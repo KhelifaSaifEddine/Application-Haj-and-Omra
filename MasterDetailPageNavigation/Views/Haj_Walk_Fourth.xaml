@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Views.Haj_Walk_Fourth" 
+            xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+  xmlns:ffimageloadingsvg ="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+    xmlns:carousel="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions">
+
+
+    <ContentPage.Content>
+
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="100"/>
+
+
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" >
+
+                <ffimageloadingsvg:CachedImage Source="LogoBg.png" Aspect="Fill" ScaleY="1.1"  ScaleX="1.5" TranslationX="90"  TranslationY="2.9" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <ffimageloadingsvg:CachedImage x:Name ="img" Source="Suivre.png"  Grid.Column="1"  Grid.Row="0" Scale="0.8" TranslationX="5" />
+                    <ffimageloadingsvg:CachedImage x:Name ="img1" Source="Suivre.png"  Grid.Column="1"  Grid.Row="1" Scale="0.8" TranslationX="5"/>
+
+                    <!--  <Button Text="LOooooooooooooove"  Grid.Column="1" Scale="0.4"/> -->
+                </Grid>
+            </Grid>
+
+            <carousel:CarouselViewControl 
+                x:Name="Carousel"
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                IsSwipeEnabled="False"
+                 TranslationY="1.5"
+                Orientation="Horizontal"
+                Position="0"
+                ShowIndicators="True"
+               CurrentPageIndicatorTintColor="LightGray"
+                IndicatorsTintColor="White"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                PositionSelected="OnCarouselPositionSelected"
+                />
+
+            <Button Text="العودة إلى الرئيسية" Grid.Row="2" Clicked="Button_Clicked_1"/>
+        </Grid>
+
+
+    </ContentPage.Content>
+</ContentPage>

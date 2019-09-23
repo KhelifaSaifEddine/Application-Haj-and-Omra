@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Views.Walkthrough.Safa_Marwa"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation">
+
+   
+        <!--AnimationOne-->
+        <forms:AnimationView
+            x:Name="LottieAnimation"
+            Speed="1"
+            Animation="Comp8.json"     
+         OnFinish="LottieAnimation_OnFinish"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+             />
+
+     
+      
+
+
+</ContentView>

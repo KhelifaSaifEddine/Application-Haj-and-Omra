@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Views.Walkthrough.BikingCoolView"
+          xmlns:views ="clr-namespace:Walkthrough.Views"
+   
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation">
+  
+        
+        <!--AnimationOne-->
+        <forms:AnimationView
+            x:Name="LottieAnimation"
+            Grid.Row="0"
+            Opacity="100"
+           
+            Speed="1"
+            Animation="Animethree.json"
+            OnPlay="LottieAnimation_OnPlay"
+            OnFinish="LottieAnimation_OnFinish"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+             />
+        <!--AnimationTwo-->
+        
+
+
+   
+</ContentView>

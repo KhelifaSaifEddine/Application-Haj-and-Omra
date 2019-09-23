@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Views.Walkthrough.FinOmra"
+                       xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+  xmlns:ffimageloadingsvg ="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             >
+  <ContentView.Content>
+        <Grid>
+            <ffimageloadingsvg:CachedImage Source="fin.png" Aspect="Fill" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="100"/>
+                   
+                </Grid.RowDefinitions>
+                <forms:AnimationView
+                    x:Name="LottieAnimation"
+                    Grid.Row="0"
+                    Animation="star.json"
+                    AutoPlay="False"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    />
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Text="الرجوع" FontSize="Large" BackgroundColor="DeepSkyBlue" TextColor="White" Grid.Column="1"   Grid.Row="0"/>
+                </Grid>
+               
+            </Grid>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

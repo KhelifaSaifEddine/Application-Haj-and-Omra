@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.Views.Walkthrough.ViewA" xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation">
+
+    <forms:AnimationView
+            x:Name="LottieAnimation"
+            Animation="Comp20.json"
+            AutoPlay="{Binding Auto, Mode=TwoWay}"
+            Loop="false"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+             />
+</ContentView>
