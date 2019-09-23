@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="MasterDetailPageNavigation.Elkhayma" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XAML\Elkhayma.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Elkhotawate" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>XAML\Elkhotawate.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Emplacement" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XAML\Emplacement.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.irchadete" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XAML\irchadete.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.MainPage" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XAML\MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.MasterPage" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XAML\MasterPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Quran" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XAML\Quran.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Main" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAAgAAAAAIAAAAAIAAICAAAAEAAAAGAAQEQAA=</HashCode>
+      <FileName>Views\Main.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.App" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.MAN" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MAN.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.MasterPageItem" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>MasterPageItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.Walkthrough.AcrobaticsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\AcrobaticsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.Walkthrough.BikingCoolView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\BikingCoolView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.Walkthrough.BikingHardView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\BikingHardView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.Walkthrough.FinOmra" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\FinOmra.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.Walkthrough.Safa_Marwa" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAEAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\Safa_Marwa.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.Walkthrough.SoExcitedView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\SoExcitedView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Views.WalkthroughView" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAADEAAEAACAgAAAAAAA=</HashCode>
+      <FileName>Views\WalkthroughView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Controls.StepProgressBarControl" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AggBgAABAAAABAAAIgIABAQABQAIAAAAAAABKIAECAA=</HashCode>
+      <FileName>Controls\StepProgresBarControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.ViewModels.MainPageViewModel" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAABAAAAAAAAAABAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MainPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterDetailPageNavigation.Models.SliderViewItem" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAEAgAA=</HashCode>
+      <FileName>Models\SliderViewItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Walkthrough.Views.Walkthrough.IAnimatedView" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Walkthrough\IAnimatedView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

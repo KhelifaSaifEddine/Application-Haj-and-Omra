@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="MasterDetailPageNavigation.Elkhotawate"
+             xmlns:ffimageloadingsvg ="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:SliderViewSample.Controls"
+             xmlns:forms="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             
+            
+   
+             >
+    <ContentPage.Content>
+        <RelativeLayout>
+            <ffimageloadingsvg:CachedImage  Source="Background.png" Aspect="Fill"
+            RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+            <StackLayout Padding="120" Margin="20,150,20,20">
+                <RelativeLayout Padding="70">
+                    <!-- Place new controls here -->
+                    <ffimageloadingsvg:CachedImage x:Name="img" TranslationX="-20" Source="Button1.png"  Scale="1.2"/>
+
+                </RelativeLayout>
+                <RelativeLayout Padding="90">
+                    <!-- Place new controls here -->
+                    <ffimageloadingsvg:CachedImage x:Name="img1" TranslationX="-20"   Source="Button2.png"  Scale="1.2"/>
+                </RelativeLayout>
+            </StackLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

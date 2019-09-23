@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.MasterDetailPage1Master"
+              BackgroundImage="MasterBackground.png" BackgroundColor="Transparent"
+             Title="Master">
+    <StackLayout Padding="5,120,10,5">
+        <Button Text="خيمة 1"
+                x:Name="saveloca1"
+                x:FieldModifier="public"
+                Clicked="Saveloca1_Clicked"
+                IsVisible="False"
+        ></Button>
+        <Button Text="خيمة 2"
+                x:Name="saveloca2"
+                x:FieldModifier="public"
+                Clicked="Saveloca2_Clicked"
+                IsVisible="False"
+        ></Button>
+        <Button Text="خيمة 3"
+                x:Name="saveloca3"
+                x:FieldModifier="public"
+                Clicked="Saveloca3_Clicked"
+                IsVisible="False"
+        ></Button>
+        <Button Text="خيمة 4"
+                x:FieldModifier="public"
+                x:Name="saveloca4"
+                Clicked="Saveloca4_Clicked"
+                IsVisible="False"
+        ></Button>
+        <Button Text="خيمة 5"
+                x:FieldModifier="public"
+                x:Name="saveloca5"
+                Clicked="Saveloca5_Clicked"
+                IsVisible="False"
+        ></Button>
+        <Button Text="أضف خيمة"
+                x:Name="Addtente"
+               Clicked="Addtente_Clicked"
+                IsVisible="True"
+        ></Button>
+    </StackLayout>
+</ContentPage>

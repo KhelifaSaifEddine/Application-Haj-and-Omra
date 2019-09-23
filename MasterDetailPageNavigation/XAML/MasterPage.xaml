@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="using:MasterDetailPageNavigation"
+			 x:Class="MasterDetailPageNavigation.MasterPage"
+			 Padding="0,40,0,0"
+			 Icon="hamburger.png"
+			 Title="Personal Organiser"
+             BackgroundImage="MasterBackground.png" BackgroundColor="Transparent"
+             
+             
+             >
+    <StackLayout Padding="0,80,0,0" >
+        <ListView x:Name="listView" x:FieldModifier="public">
+           <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="الرئيسية" IconSource="Icon5.png" TargetType="{x:Type local:MAN}" />
+                    <local:MasterPageItem Title="الخطوات" IconSource="Icon1.png" TargetType="{x:Type local:Elkhotawate}" />
+                    <local:MasterPageItem Title="الخيمة" IconSource="Icon2.png" TargetType="{x:Type local:Elkhayma}" />
+                    <local:MasterPageItem Title="القرأن" IconSource="Icon3.png" TargetType="{x:Type local:MasterDetailPage2}" />
+                    <local:MasterPageItem Title="موقعك" IconSource="Icon4.png" TargetType="{x:Type local:MasterDetailPage1}" />
+                    <local:MasterPageItem Title="ارشادات" IconSource="Icon5.png" TargetType="{x:Type local:irchadete}" />
+                   
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Scale="2"  Source="{Binding IconSource} " />
+                            <Label FontSize="Medium" TextColor="DarkGoldenrod" Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

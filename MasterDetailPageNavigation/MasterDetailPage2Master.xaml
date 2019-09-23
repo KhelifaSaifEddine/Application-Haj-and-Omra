@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.MasterDetailPage2Master"
+             BackgroundImage="MasterBackground.png"
+             Title="Master">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}">
+            <ListView.Header>
+                <Grid BackgroundColor="#000000">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="5"/>
+                    </Grid.RowDefinitions>
+                    <Label
+              Grid.Column="1"
+              Grid.Row="2"
+              TextColor="#FFFFFF"
+              Text="الآيات"
+              Style="{DynamicResource SubtitleStyle}"/>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+                            <Label VerticalOptions="FillAndExpand"  
+                     VerticalTextAlignment="Center" 
+                     Margin="0,0,100,0"
+                      Text="{Binding Title}" 
+                      x:Name="GoToAya"
+                      FontSize="24"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
