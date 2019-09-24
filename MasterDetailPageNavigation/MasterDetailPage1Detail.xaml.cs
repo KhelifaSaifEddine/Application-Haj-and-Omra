@@ -129,7 +129,7 @@ namespace MasterDetailPageNavigation
                 r = r.Replace(",", ".");
                 t = t.Replace(",", ".");
                 string Liink = "https://roads.googleapis.com/v1/snapToRoads?path=";
-                string hh = "&interpolate=true&key=AIzaSyC8szME3rrsgdeGTSqaYPG-TLgIBWIwVGQ";
+                string hh = "&interpolate=true&key=";
                 string h = "";
                 string Link = "https://maps.googleapis.com/maps/api/directions/json?origin=" + z + "," + u + "&destination=" + r + "," + t + "&mode=walking&key=AIzaSyC8szME3rrsgdeGTSqaYPG-TLgIBWIwVGQ";
                 if (CrossConnectivity.Current.IsConnected)
